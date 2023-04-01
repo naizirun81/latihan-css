@@ -1,0 +1,94 @@
+body {
+    /* background halaman web */
+    background-color: #ecf0f1;
+}
+
+.container {
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #bdc3c7;
+}
+
+.sidebar {
+    width: 400px;
+    float: left;
+}
+
+.content {
+    width: 600px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    float: left;
+}
+
+#logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+#menu {
+    width: 750px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: right;
+}
+
+#menu li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#menu li a{
+    color: #34495e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    color: purple;
+}
+
+.blog-single img {
+    width: 580px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.recent-article {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.recent-article ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+.recent-article li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recent-article a:hover {
+    color: purple;
+}
